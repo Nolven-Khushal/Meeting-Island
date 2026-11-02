@@ -1,0 +1,14 @@
+# the language bar should count the program, not the pictures and write-ups
+docs/** linguist-documentation
+showcase/** linguist-documentation
+mockups/** linguist-documentation
+demo/** linguist-documentation
+installer/*.txt linguist-documentation
+finetune/KAGGLE.md linguist-documentation
+tools/showcase/*.png linguist-generated
+*.html linguist-documentation
+*.md linguist-documentation
+*.png binary
+*.mp4 binary
+*.wav binary
+*.ico binary

@@ -1,0 +1,34 @@
+# Meeting Island runtime (Windows 10/11, Python 3.12+; developed on 3.14)
+PySide6-Essentials>=6.8
+numpy>=2.0
+av>=14                  # audio decode/resample + screen-video encoding (PyAV bundles ffmpeg)
+mss>=9                  # screen grab (fallback) and the glass backdrop
+dxcam>=0.3              # GPU desktop duplication: 1 ms screen capture while recording
+PyAudioWPatch>=0.2.12   # WASAPI loopback: record what the PC is playing
+ctranslate2>=4.4        # runs the Hinglish Whisper model, int8, on the CPU
+faster-whisper>=1.0     # tokenizer / feature extractor helpers
+onnx-asr>=0.12          # runs the Hindi IndicConformer model
+onnxruntime>=1.20
+sherpa-onnx>=1.12       # speaker voice prints + offline diarization
+tokenizers>=0.20
+wordfreq>=3.1           # which words are ordinary words (glossary guard, fusion)
+Metaphone>=0.6          # Double Metaphone: match words by sound
+regex
+ftfy
+msgpack
+langcodes
+huggingface_hub
+# reading names off the screen (Windows built-in text recognition)
+winrt-runtime
+winrt-Windows.Foundation
+winrt-Windows.Foundation.Collections
+winrt-Windows.Globalization
+winrt-Windows.Graphics.Imaging
+winrt-Windows.Media.Ocr
+winrt-Windows.Storage.Streams
+comtypes
+# building the installer / the showcase film (not needed to run)
+# pyinstaller>=6.10
+# pillow
+# imageio-ffmpeg
+# pytest

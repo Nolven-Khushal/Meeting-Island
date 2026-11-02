@@ -1,0 +1,37 @@
+# environments and build output
+.venv*/
+__pycache__/
+*.pyc
+build/
+dist/
+releases/
+*.spec.bak
+*.bak*
+# models and data are downloaded, never committed (python tools/fetch_models.py)
+models/
+bench/data*/
+bench/results/
+bench/results.json
+bench/*.log
+bench/spk/clips/
+bench/spk/*.npy
+sessions/
+corrections/
+scratch/
+# a person's own settings, glossary and transcripts
+island_settings.json
+island_pos.json
+island.log
+glossary.txt
+learned_glossary.txt
+*.txt.bak
+Meeting Transcripts/
+# recordings and generated media (the showcase video is the one deliberate exception, see showcase/)
+*.wav
+!demo/meeting_demo.wav
+*.mp4
+!showcase/video/*.mp4
+tools/showcase/out/
+# installers
+*.exe
+*.zip

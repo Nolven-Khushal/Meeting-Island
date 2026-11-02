@@ -1,0 +1,89 @@
+MEETING ISLAND - QUICK START
+============================
+
+What it does
+------------
+Meeting Island sits at the top-centre of the screen (just under the camera) and writes down what is
+being said in a meeting, live, in English, Hindi and Hinglish. When the meeting ends it saves a text
+file with the time of every line. It works completely offline: nothing is sent anywhere.
+
+
+Every day
+---------
+1. Double-click "Meeting Island" on the Desktop. Wait about 30 seconds the first time each day while it
+   gets ready (the small bar says so). You can leave it open all day.
+2. When the meeting begins, press "Start session".
+3. Need a break? Press the pause button. Press it again to carry on.
+4. When the meeting is over, press "End session". A window asks for a name and a folder.
+   Press "Save". The transcript is saved as a .txt file (default folder: Documents > Meeting Transcripts).
+
+If you forget to save, or the computer shuts down, nothing is lost: next time the app offers
+"Recover last session".
+
+
+What it listens to
+------------------
+Right-click the island and choose under "Listen to":
+  - PC audio (calls, videos)            : Teams, Zoom, Meet, YouTube... whatever the PC plays
+  - Microphone (meeting in the room)    : a meeting where everybody is in the room
+  - PC audio + my microphone            : an online call where you also speak
+
+Choose this BEFORE pressing "Start session". Turn the PC volume up: with PC audio, a muted PC means
+there is nothing to write down (the island will say "No sound heard").
+
+
+Recording and the final transcript
+----------------------------------
+Press "Start session" and the meeting is transcribed live. By default the screen and the audio are also recorded
+(right-click > Record: screen + audio / audio only / off - choose it before Start). When you press "End session" and Save, the
+live transcript is saved at once. A few minutes later it is replaced by a final version that listens to the recording again,
+more carefully, and tells who said each line. The recording is saved next to the transcript as a video (.mp4) if you leave
+"Keep the recording" ticked. While it works the island shows a thin progress line; it waits while a new meeting is running
+and when the battery is low, so it never slows your day.
+
+
+Who spoke
+---------
+The transcript marks different voices as Speaker 1, Speaker 2... On the Save window you can type real
+names next to them, and the names are written into the file.
+
+
+Move it, shrink it
+------------------
+- Drag the island anywhere. While you hold it, it turns into a small circle.
+- Drag it to the left or right edge and it becomes a slim vertical bar.
+- Let it go near the top-centre and it snaps back under the camera.
+- The arrow button makes it small (pill) or big (full transcript).
+- Right-click for: look (Frost / Liquid glass), Hindi as Hinglish or Devanagari, edit glossary, quit.
+
+
+Names and special words
+-----------------------
+Right-click > Edit glossary. Write one name or term per line (for example: a colleague's name,
+a company, a product). The app then spells them correctly. Use  wrong=right  if it keeps hearing a
+word wrongly, for example:  tecknolegy=Technology
+
+
+It gets better the more you use it
+----------------------------------
+Open a saved transcript (.txt) and fix any mistake: a misheard name, a wrong word. Save the file as usual - that is all.
+The next time you start Meeting Island it reads what you fixed and remembers it: the same mistake is corrected automatically
+in every later meeting (live and in the final version). A small notice tells you how many it learned.
+To see or delete what it learned: right-click the island > "What it learned from your edits".
+(A common word, like "the", is only trusted after you fixed it the same way twice.)
+
+
+If something does not work
+--------------------------
+- "No sound heard": the PC is muted, or the wrong thing is selected under "Listen to".
+- No microphone: Windows Settings > Privacy & security > Microphone > allow "Let desktop apps access
+  your microphone".
+- It feels slow: close other heavy programs. The first lines of a session may take a few seconds longer.
+- Anything else: send the file  %LOCALAPPDATA%\MeetingIsland\island.log  to whoever supports you
+  (paste that into the Windows Explorer address bar to open the folder).
+
+
+Remove it
+---------
+Start menu > Meeting Island > Uninstall Meeting Island (or Settings > Apps > Installed apps).
+Saved transcripts are never deleted.
